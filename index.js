@@ -40,6 +40,7 @@ module.exports = {
 			},
 		],
 		"arrow-body-style": "off",
+		"arrow-parens": "off",
 		"no-underscore-dangle": "off",
 		"object-curly-newline": "off",
 		"no-restricted-globals": "off",
