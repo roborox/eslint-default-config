@@ -1,6 +1,6 @@
 {
 	"name": "@roborox/eslint-config-default",
-	"version": "2.0.1",
+	"version": "2.0.2",
 	"description": "Config for eslint",
 	"main": "index.js",
 	"private": false,

@@ -1,3 +1,10 @@
+## [2.0.2](https://github.com/roborox/eslint-default-config/compare/v2.0.1...v2.0.2) (2020-02-11)
+
+
+### Bug Fixes
+
+* fix dependencies ([c512303](https://github.com/roborox/eslint-default-config/commit/c512303))
+
 ## [2.0.1](https://github.com/roborox/eslint-default-config/compare/v2.0.0...v2.0.1) (2020-02-11)
 
 
