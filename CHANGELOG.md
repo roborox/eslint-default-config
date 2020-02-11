@@ -1,3 +1,10 @@
+## [2.0.3](https://github.com/roborox/eslint-default-config/compare/v2.0.2...v2.0.3) (2020-02-11)
+
+
+### Bug Fixes
+
+* remove indent rule in favor of prettier ([6f3b5a9](https://github.com/roborox/eslint-default-config/commit/6f3b5a9))
+
 ## [2.0.2](https://github.com/roborox/eslint-default-config/compare/v2.0.1...v2.0.2) (2020-02-11)
 
 
