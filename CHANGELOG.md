@@ -1,3 +1,10 @@
+## [2.0.1](https://github.com/roborox/eslint-default-config/compare/v2.0.0...v2.0.1) (2020-02-11)
+
+
+### Bug Fixes
+
+* add prettier file to build ([064f35f](https://github.com/roborox/eslint-default-config/commit/064f35f))
+
 # [2.0.0](https://github.com/roborox/eslint-default-config/compare/v1.0.3...v2.0.0) (2020-02-11)
 
 
