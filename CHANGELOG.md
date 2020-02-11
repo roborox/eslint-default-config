@@ -1,3 +1,20 @@
+# [2.0.0](https://github.com/roborox/eslint-default-config/compare/v1.0.3...v2.0.0) (2020-02-11)
+
+
+### Bug Fixes
+
+* fix unicorn package version ([5b37381](https://github.com/roborox/eslint-default-config/commit/5b37381))
+
+
+### Features
+
+* apply react-app config in favor of airbnb-typescript ([ba7c79e](https://github.com/roborox/eslint-default-config/commit/ba7c79e))
+
+
+### BREAKING CHANGES
+
+* new rules applied
+
 ## [1.0.3](https://github.com/roborox/eslint-default-config/compare/v1.0.2...v1.0.3) (2019-12-11)
 
 
