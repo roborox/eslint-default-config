@@ -6,7 +6,8 @@
 	"private": false,
 	"files": [
 		"index.js",
-		"CHANGELOG.md"
+		"CHANGELOG.md",
+		".prettierrc.js"
 	],
 	"scripts": {
 		"ci": "sh ci.sh",
@@ -15,7 +16,8 @@
 	},
 	"keywords": [
 		"Eslint",
-		"Config"
+		"Config",
+		"Prettier"
 	],
 	"author": {
 		"name": "Roborox Team",
