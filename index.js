@@ -39,13 +39,6 @@ module.exports = {
 
 		/** Typescript extension */
 		"@typescript-eslint/no-use-before-define": "off",
-		"@typescript-eslint/indent": [
-			"error",
-			"tab",
-			{
-				SwitchCase: 1
-			}
-		],
 		"@typescript-eslint/quotes": [
 			"error",
 			"double",
