@@ -59,6 +59,9 @@ module.exports = {
 		],
 
 		/* Prettier options */
-		"prettier/prettier": "error"
+		"prettier/prettier": "error",
+
+		/* React options */
+		"react-hooks/exhaustive-deps": "off"
 	}
 }
