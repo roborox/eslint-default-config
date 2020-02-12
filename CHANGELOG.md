@@ -1,3 +1,11 @@
+# [2.1.0](https://github.com/roborox/eslint-default-config/compare/v2.0.4...v2.1.0) (2020-02-12)
+
+
+### Features
+
+* added new rules ([6116905](https://github.com/roborox/eslint-default-config/commit/6116905))
+* remove prettier :( ([b51b085](https://github.com/roborox/eslint-default-config/commit/b51b085))
+
 ## [2.0.4](https://github.com/roborox/eslint-default-config/compare/v2.0.3...v2.0.4) (2020-02-11)
 
 
