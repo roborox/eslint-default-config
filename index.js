@@ -1,7 +1,7 @@
 module.exports = {
 	extends: ["react-app"],
 	parser: "@typescript-eslint/parser",
-	plugins: ["unicorn", "jest", "prettier"],
+	plugins: ["unicorn", "jest"],
 	overrides: [
 		{
 			files: ["**/*.tsx"],
@@ -26,16 +26,7 @@ module.exports = {
 				allowForLoopAfterthoughts: true
 			}
 		],
-		"max-len": [
-			"error",
-			{
-				code: 120,
-				tabWidth: 2,
-				ignorePattern: "^import.*$"
-			}
-		],
-		"no-tabs": "off",
-		quotes: "off",
+		"comma-dangle": ["error", "always"],
 
 		/** Typescript extension */
 		"@typescript-eslint/no-use-before-define": "off",
@@ -44,6 +35,29 @@ module.exports = {
 			"double",
 			{
 				avoidEscape: true
+			}
+		],
+		"@typescript-eslint/semi": ["error", "never"],
+		"@typescript-eslint/indent": [
+			"error",
+			"tab",
+			{
+				SwitchCase: 1
+			}
+		],
+		"@typescript-eslint/max-len": [
+			"error",
+			{
+				code: 120,
+				tabWidth: 2,
+				ignorePattern: "^import.*$"
+			}
+		],
+		"@typescript-eslint/comma-spacing": [
+			"error",
+			{
+				before: false,
+				after: true
 			}
 		],
 
@@ -58,10 +72,7 @@ module.exports = {
 			}
 		],
 
-		/* Prettier options */
-		"prettier/prettier": "error",
-
 		/* React options */
 		"react-hooks/exhaustive-deps": "off"
 	}
-}
+};

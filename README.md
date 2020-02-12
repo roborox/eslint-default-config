@@ -19,7 +19,7 @@ your `.eslintrc.js` file
 
 ```
 module.exports = {
-  extends: ["@roborox/default"],
-  /* your config goes here.. */
+	extends: ["@roborox/default"],
+	/* your config goes here.. */
 }
 ```
