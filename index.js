@@ -1,10 +1,10 @@
 module.exports = {
-	extends: ["react-app", ],
+	extends: ["react-app"],
 	parser: "@typescript-eslint/parser",
-	plugins: ["unicorn", "jest", ],
+	plugins: ["unicorn", "jest"],
 	overrides: [
 		{
-			files: ["**/*.tsx", ],
+			files: ["**/*.tsx"],
 			rules: {
 				"react/prop-types": "off",
 			},
@@ -13,6 +13,7 @@ module.exports = {
 	rules: {
 		/* General options */
 		"eol-last": "off",
+		"array-bracket-spacing": ["error", "never"],
 		"max-len": [
 			"error",
 			{
@@ -39,7 +40,7 @@ module.exports = {
 				allowAllPropertiesOnSameLine: true,
 			},
 		],
-		"semi-style": ["error", "last", ],
+		"semi-style": ["error", "last"],
 		"semi-spacing": [
 			"error", {
 				before: false,
@@ -53,7 +54,7 @@ module.exports = {
 				allowSingleLine: true,
 			},
 		],
-		"block-spacing": ["error", "always", ],
+		"block-spacing": ["error", "always"],
 		"key-spacing": [
 			"error",
 			{
@@ -74,15 +75,45 @@ module.exports = {
 				allowForLoopAfterthoughts: true,
 			},
 		],
-		"comma-dangle": ["error", "always", ],
-		"new-cap": ["error", {
-			newIsCap: true,
-			newIsCapExceptions: [],
-			capIsNew: false,
-			capIsNewExceptions: ["Immutable.Map", "Immutable.Set", "Immutable.List", ],
-		}, ],
+		"comma-dangle": [
+			"error",
+			{
+				arrays: "always-multiline",
+				objects: "always-multiline",
+				imports: "always-multiline",
+				exports: "always-multiline",
+				functions: "always-multiline",
+			},
+		],
+		"comma-style": [
+			"error", "last",
+			{
+				exceptions: {
+					ArrayExpression: false,
+					ArrayPattern: false,
+					ArrowFunctionExpression: false,
+					CallExpression: false,
+					FunctionDeclaration: false,
+					FunctionExpression: false,
+					ImportDeclaration: false,
+					ObjectExpression: false,
+					ObjectPattern: false,
+					VariableDeclaration: false,
+					NewExpression: false,
+				},
+			},
+		],
+		"new-cap": [
+			"error",
+			{
+				newIsCap: true,
+				newIsCapExceptions: [],
+				capIsNew: false,
+				capIsNewExceptions: ["Immutable.Map", "Immutable.Set", "Immutable.List"],
+			},
+		],
 		"new-parens": "error",
-		"no-multi-assign": ["error", ],
+		"no-multi-assign": ["error"],
 		"no-multiple-empty-lines": [
 			"error",
 			{
@@ -102,7 +133,7 @@ module.exports = {
 				avoidEscape: true,
 			},
 		],
-		"@typescript-eslint/semi": ["error", "never", ],
+		"@typescript-eslint/semi": ["error", "never"],
 		"@typescript-eslint/indent": [
 			"error",
 			"tab",
