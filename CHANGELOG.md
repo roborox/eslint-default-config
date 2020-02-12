@@ -1,3 +1,10 @@
+## [2.1.1](https://github.com/roborox/eslint-default-config/compare/v2.1.0...v2.1.1) (2020-02-12)
+
+
+### Bug Fixes
+
+* fix comma-dangle rule ([21b7005](https://github.com/roborox/eslint-default-config/commit/21b7005))
+
 # [2.1.0](https://github.com/roborox/eslint-default-config/compare/v2.0.4...v2.1.0) (2020-02-12)
 
 
