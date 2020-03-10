@@ -6,8 +6,7 @@
 	"private": false,
 	"files": [
 		"index.js",
-		"CHANGELOG.md",
-		".prettierrc.js"
+		"CHANGELOG.md"
 	],
 	"scripts": {
 		"ci": "sh ci.sh",
@@ -25,8 +24,8 @@
 	},
 	"license": "ISC",
 	"peerDependencies": {
-		"eslint": ">= 6.6.0",
-		"typescript": ">= 3.6.3"
+		"eslint": ">=6.6.0",
+		"typescript": ">=3.6.3"
 	},
 	"repository": {
 		"url": "https://github.com/roborox/eslint-default-config.git"
@@ -34,29 +33,27 @@
 	"homepage": "https://github.com/roborox/eslint-default-config#readme",
 	"bugs": "https://github.com/roborox/eslint-default-config/issues",
 	"devDependencies": {
-		"@semantic-release/changelog": "3.0.4",
-		"@semantic-release/commit-analyzer": "6.2.0",
-		"@semantic-release/git": "7.0.16",
-		"@semantic-release/npm": "5.1.13",
-		"@semantic-release/release-notes-generator": "7.2.1",
-		"babel-eslint": "10.0.3",
+		"@semantic-release/changelog": "5.0.0",
+		"@semantic-release/commit-analyzer": "8.0.1",
+		"@semantic-release/git": "9.0.0",
+		"@semantic-release/npm": "7.0.4",
+		"@semantic-release/release-notes-generator": "9.0.1",
+		"babel-eslint": "10.1.0",
 		"eslint": "6.8.0",
-		"husky": "3.0.9",
-		"semantic-release": "15.14.0",
+		"eslint-plugin-jest": "23.8.2",
+		"husky": "4.2.3",
+		"semantic-release": "17.0.4",
 		"typescript": "3.7.2"
 	},
 	"dependencies": {
-		"@typescript-eslint/eslint-plugin": "2.19.0",
-		"@typescript-eslint/parser": "2.19.2",
-		"eslint-config-airbnb-typescript": "6.0.0",
+		"@typescript-eslint/eslint-plugin": "2.23.0",
+		"@typescript-eslint/parser": "2.23.0",
 		"eslint-config-react-app": "5.2.0",
 		"eslint-plugin-flowtype": "3.13.0",
-		"eslint-plugin-import": "2.20.1",
-		"eslint-plugin-jest": "23.0.2",
-		"eslint-plugin-jsx-a11y": "6.2.3",
-		"eslint-plugin-react": "7.18.3",
 		"eslint-plugin-react-hooks": "1.7.0",
-		"eslint-plugin-react-native-globals": "0.1.2",
-		"eslint-plugin-unicorn": "15.0.1"
+		"eslint-plugin-import": "2.20.1",
+		"eslint-plugin-jsx-a11y": "6.2.3",
+		"eslint-plugin-react": "7.19.0",
+		"eslint-plugin-unicorn": "17.1.0"
 	}
 }
