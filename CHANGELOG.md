@@ -1,3 +1,10 @@
+## [2.1.4](https://github.com/roborox/eslint-default-config/compare/v2.1.3...v2.1.4) (2020-04-23)
+
+
+### Bug Fixes
+
+* react-hooks/exhaustive-deps warn ([66afaf6](https://github.com/roborox/eslint-default-config/commit/66afaf6d78e9725b814e835191c0f86044498238))
+
 ## [2.1.3](https://github.com/roborox/eslint-default-config/compare/v2.1.2...v2.1.3) (2020-03-10)
 
 
