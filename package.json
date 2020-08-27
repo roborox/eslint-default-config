@@ -1,9 +1,24 @@
 {
 	"name": "@roborox/eslint-config-default",
 	"version": "2.1.4",
-	"description": "Config for eslint",
-	"main": "index.js",
 	"private": false,
+	"description": "Config for eslint",
+	"keywords": [
+		"Eslint",
+		"Config",
+		"Prettier"
+	],
+	"homepage": "https://github.com/roborox/eslint-default-config#readme",
+	"bugs": "https://github.com/roborox/eslint-default-config/issues",
+	"repository": {
+		"url": "https://github.com/roborox/eslint-default-config.git"
+	},
+	"license": "ISC",
+	"author": {
+		"name": "Roborox Team",
+		"url": "https://roborox.org"
+	},
+	"main": "index.js",
 	"files": [
 		"index.js",
 		"CHANGELOG.md"
@@ -13,47 +28,31 @@
 		"lint": "eslint --ext .js ./",
 		"lint:fix": "eslint --ext .js ./ --fix"
 	},
-	"keywords": [
-		"Eslint",
-		"Config",
-		"Prettier"
-	],
-	"author": {
-		"name": "Roborox Team",
-		"url": "https://roborox.org"
+	"dependencies": {
+		"@typescript-eslint/eslint-plugin": "3.10.0",
+		"@typescript-eslint/parser": "3.10.0",
+		"babel-eslint": "10.1.0",
+		"eslint-config-react-app": "6.0.0-next.77",
+		"eslint-plugin-flowtype": "5.2.0",
+		"eslint-plugin-import": "2.22.0",
+		"eslint-plugin-jest": "23.20.0",
+		"eslint-plugin-jsx-a11y": "6.3.1",
+		"eslint-plugin-react": "7.20.6",
+		"eslint-plugin-react-hooks": "4.1.0",
+		"eslint-plugin-unicorn": "21.0.0"
 	},
-	"license": "ISC",
-	"peerDependencies": {
-		"eslint": ">=6.6.0",
-		"typescript": ">=3.6.3"
-	},
-	"repository": {
-		"url": "https://github.com/roborox/eslint-default-config.git"
-	},
-	"homepage": "https://github.com/roborox/eslint-default-config#readme",
-	"bugs": "https://github.com/roborox/eslint-default-config/issues",
 	"devDependencies": {
-		"@semantic-release/changelog": "5.0.0",
+		"@semantic-release/changelog": "5.0.1",
 		"@semantic-release/commit-analyzer": "8.0.1",
 		"@semantic-release/git": "9.0.0",
-		"@semantic-release/npm": "7.0.4",
+		"@semantic-release/npm": "7.0.5",
 		"@semantic-release/release-notes-generator": "9.0.1",
-		"babel-eslint": "10.1.0",
-		"eslint": "6.8.0",
-		"husky": "4.2.3",
-		"semantic-release": "17.0.4",
-		"typescript": "3.7.2"
+		"eslint": "7.7.0",
+		"husky": "4.2.5",
+		"semantic-release": "17.1.1"
 	},
-	"dependencies": {
-		"@typescript-eslint/eslint-plugin": "2.23.0",
-		"@typescript-eslint/parser": "2.23.0",
-		"eslint-config-react-app": "5.2.0",
-		"eslint-plugin-flowtype": "3.13.0",
-		"eslint-plugin-react-hooks": "1.7.0",
-		"eslint-plugin-jest": "23.8.2",
-		"eslint-plugin-import": "2.20.1",
-		"eslint-plugin-jsx-a11y": "6.2.3",
-		"eslint-plugin-react": "7.19.0",
-		"eslint-plugin-unicorn": "17.1.0"
+	"peerDependencies": {
+		"eslint": ">=7.7.0",
+		"typescript": ">=4.0.0"
 	}
 }

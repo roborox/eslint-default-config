@@ -1,7 +1,10 @@
 module.exports = {
-	extends: ["react-app"],
+	extends: "react-app",
 	parser: "@typescript-eslint/parser",
-	plugins: ["unicorn", "jest"],
+	plugins: [
+		"unicorn",
+		"jest",
+	],
 	overrides: [
 		{
 			files: ["**/*.tsx"],
@@ -151,6 +154,12 @@ module.exports = {
 
 		/* Import options */
 		"import/no-default-export": "error",
+		"import/order": [
+			"error",
+			{
+				groups: ["builtin", "external", "parent", "sibling", "index"],
+			},
+		],
 
 		/* Unicorn options */
 		"unicorn/filename-case": [

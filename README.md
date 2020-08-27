@@ -9,7 +9,7 @@
 Run following command with terminal
 
 ```
-npm install eslint@^6.0.0 @roborox/eslint-config-default --save-dev
+npm install eslint@^7.7.0 @roborox/eslint-config-default --save-dev
 ```	
 
 ### 2. Applying
