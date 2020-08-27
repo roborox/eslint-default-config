@@ -1,3 +1,15 @@
+# [2.2.0](https://github.com/roborox/eslint-default-config/compare/v2.1.4...v2.2.0) (2020-08-27)
+
+
+### Bug Fixes
+
+* add typescript to dev dependencies ([e83e2a4](https://github.com/roborox/eslint-default-config/commit/e83e2a4657830a35a0f9fbf1b41d94f703cf9873))
+
+
+### Features
+
+* **RARI-770:** update dependencies, add order rules ([60ddafb](https://github.com/roborox/eslint-default-config/commit/60ddafbe2285b9815fafc0e1396248314b3a95c6))
+
 ## [2.1.4](https://github.com/roborox/eslint-default-config/compare/v2.1.3...v2.1.4) (2020-04-23)
 
 
