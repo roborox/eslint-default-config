@@ -119,10 +119,6 @@ module.exports = {
 			},
 		],
 		"no-nested-ternary": "error",
-		
-		/** React 17 */
-		"react/jsx-uses-react": "off",
-		"react/react-in-jsx-scope": "off",
 
 		/** Typescript extension */
 		"@typescript-eslint/no-use-before-define": "off",
@@ -180,6 +176,8 @@ module.exports = {
 		],
 
 		/* React options */
+		"react/jsx-uses-react": "off",
+		"react/react-in-jsx-scope": "off",
 		"react-hooks/exhaustive-deps": "warn",
 	},
 }
