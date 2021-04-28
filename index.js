@@ -1,5 +1,8 @@
 module.exports = {
-	extends: "react-app",
+	extends: [
+		"react-app",
+		"prettier"
+	],
 	parser: "@typescript-eslint/parser",
 	plugins: [
 		"unicorn",
@@ -65,7 +68,7 @@ module.exports = {
 				afterColon: true,
 			},
 		],
-		camelcase: [
+		"camelcase": [
 			"error",
 			{
 				properties: "never",
@@ -76,16 +79,6 @@ module.exports = {
 			"error",
 			{
 				allowForLoopAfterthoughts: true,
-			},
-		],
-		"comma-dangle": [
-			"error",
-			{
-				arrays: "always-multiline",
-				objects: "always-multiline",
-				imports: "always-multiline",
-				exports: "always-multiline",
-				functions: "always-multiline",
 			},
 		],
 		"comma-style": [
@@ -126,6 +119,10 @@ module.exports = {
 			},
 		],
 		"no-nested-ternary": "error",
+		
+		/** React 17 */
+		"react/jsx-uses-react": "off",
+		"react/react-in-jsx-scope": "off",
 
 		/** Typescript extension */
 		"@typescript-eslint/no-use-before-define": "off",
@@ -136,14 +133,10 @@ module.exports = {
 				avoidEscape: true,
 			},
 		],
+		"semi": "off",
 		"@typescript-eslint/semi": ["error", "never"],
-		"@typescript-eslint/indent": [
-			"error",
-			"tab",
-			{
-				SwitchCase: 1,
-			},
-		],
+		"indent": "off",
+		"@typescript-eslint/indent": "off",
 		"@typescript-eslint/comma-spacing": [
 			"error",
 			{
@@ -151,13 +144,30 @@ module.exports = {
 				after: true,
 			},
 		],
+		"no-redeclare": "off",
+		"@typescript-eslint/no-redeclare": [
+			"error",
+			{
+				"ignoreDeclarationMerge": true
+			}
+		],
 
 		/* Import options */
 		"import/no-default-export": "error",
 		"import/order": [
 			"error",
 			{
-				groups: ["builtin", "external", "parent", "sibling", "index"],
+				"pathGroups": [
+					{
+						"pattern": "~/**",
+						"group": "parent",
+						"position": "before"
+					}
+				],
+				"alphabetize": {
+					"order": "asc",
+					"caseInsensitive": true
+				}
 			},
 		],
 
